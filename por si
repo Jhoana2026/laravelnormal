@@ -1,0 +1,13 @@
+php -v
+composer -v
+composer create-project laravel/laravel Pruebalaravel1
+cd Pruebalaravel1
+php artisan serve
+
+https://getcomposer.org/download/
+
+php artisan make:model Conexión
+
+php artisan make:controller ConexionController
+
+php artisan migrate
